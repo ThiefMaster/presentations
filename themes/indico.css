@@ -1,0 +1,46 @@
+/* @theme indico */
+
+@import 'uncover';
+
+section {
+    --color-highlight-heading: #00a4e4;
+}
+
+em {
+    font-weight: normal;
+}
+
+small {
+    font-size: 0.75em;
+    color: #888;
+    font-weight: normal;
+}
+
+section {
+    font-size: 2rem;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+
+section ul, section ol {
+    margin: 0;
+}
+
+section.spotlight {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+section.spotlight h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+section.spotlight h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+section.centered {
+    text-align: center;
+}
