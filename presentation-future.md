@@ -58,6 +58,7 @@ Roadmap • Wishlist • Ideas
   - More dashboard-like
   - Take user's favorites ⭐ into account
 - **UX/UI improvements**
+  - More consistency
   - Accessibility 👨‍🦯
   - Material editor: Drag & Drop
   - Better support for small screens 📱
