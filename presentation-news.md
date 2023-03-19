@@ -129,6 +129,10 @@ Over **5 years of development** since that day
 
 ---
 
+![bg](assets/news/indico-22-rb-showers.png)
+
+---
+
 ### v2.3 - "Made at Home" **(Sep 2020)**
 
 ![bg right:20% 95%](assets/news/covid-emoji.png)
