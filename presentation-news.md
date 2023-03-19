@@ -11,9 +11,21 @@ paginate: false
 
 ---
 
-<!-- _footer: Adrian Mönnich • Indico Workshop 3.5 • March 2023 -->
+<!-- _footer: '
+  Adrian Mönnich • Indico Workshop 3.5 • March 2023<br>
+  Picture: ["Cygnus OB2" by NASA](https://www.flickr.com/photos/nasamarshall/48414572851/) (CC BY-NC)
+' -->
 
-# What's new in the Indicoverse (Season 2... or 3?)
+<style scoped>
+  section {
+    padding-right: 20px;
+  }
+</style>
+
+![bg right:45%](assets/news/universe.jpg)
+
+# What's new in the Indicoverse
+## Season 2... or 3?
 
 ---
 
