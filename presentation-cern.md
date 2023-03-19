@@ -149,6 +149,7 @@ paginate: false
 ![bg left](assets/cern/global-indico.png)
 
 - Subcategory on indico.cern.ch
+  - May switch to stand-alone instance in the future
 - "Fair use" policy
 - No CERN Zoom service
 - Best-effort support
@@ -227,7 +228,7 @@ paginate: false
   - Also syncing to EOS every night
   - ...because we REALLY wouldn't want to lose people's slides etc
 
-**So far we never needed to roll back to out backups BTW! :)**
+**So far we never needed to roll back to our backups BTW! :)**
 
 ---
 
