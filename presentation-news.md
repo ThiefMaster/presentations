@@ -31,7 +31,7 @@ paginate: false
 
 Couldn't have worked with - and still work with - better people! 💙
 
-![bg right:42% 100%](assets/team-wall-of-fame.png)
+![bg right:42% 100%](assets/news/team-wall-of-fame.png)
 
 <!-- _footer: Only listing people who've been with us since the last Workshop in 2017 -->
 
@@ -44,7 +44,7 @@ Couldn't have worked with - and still work with - better people! 💙
   }
 </style>
 
-![bg right:45% 90%](assets/indico-releases-pypi.png)
+![bg right:45% 90%](assets/news/indico-releases-pypi.png)
 
 ## Let's get technical
 
@@ -64,7 +64,7 @@ Couldn't have worked with - and still work with - better people! 💙
 
 ### v2.0a1 **(Oct 2017)**
 
-![bg left:50% 100%](assets/workshop-2-indisaur.png)
+![bg left:50% 100%](assets/news/workshop-2-indisaur.png)
 
 Released live during the previous workshop
 Over **5 years of development** since that day
@@ -95,8 +95,8 @@ Over **5 years of development** since that day
 
 ---
 
-![bg 95%](assets/indico-21-permissions.png)
-![bg 95%](assets/indico-21-csv-import.png)
+![bg 95%](assets/news/indico-21-permissions.png)
+![bg 95%](assets/news/indico-21-csv-import.png)
 
 ---
 
@@ -109,17 +109,17 @@ Over **5 years of development** since that day
 
 ---
 
-![bg](assets/indico-22-rb-landing.png)
+![bg](assets/news/indico-22-rb-landing.png)
 
 ---
 
-![bg](assets/indico-22-rb-bookroom.png)
+![bg](assets/news/indico-22-rb-bookroom.png)
 
 ---
 
 ### v2.3 - "Made at Home" **(Sep 2020)**
 
-![bg right:20% 95%](assets/covid-emoji.png)
+![bg right:20% 95%](assets/news/covid-emoji.png)
 
 - Significant **external contributions**
   - UNOG 👨‍💻 & IEEE 💰
@@ -148,19 +148,19 @@ Over **5 years of development** since that day
 
 ---
 
-![bg contain](assets/indico-30-search.png)
+![bg contain](assets/news/indico-30-search.png)
 
 ---
 
-![bg 40%](assets/indico-30-avatars.png)
+![bg 40%](assets/news/indico-30-avatars.png)
 
 ---
 
-![bg 50%](assets/indico-30-tokens.png)
+![bg 50%](assets/news/indico-30-tokens.png)
 
 ---
 
-![bg 50%](assets/indico-30-hibp.png)
+![bg 50%](assets/news/indico-30-hibp.png)
 
 ---
 
@@ -190,25 +190,25 @@ Over **5 years of development** since that day
 
 ---
 
-![bg 70%](assets/indico-32-participant-visibility.png)
+![bg 70%](assets/news/indico-32-participant-visibility.png)
 
 ---
 
-![bg 60%](assets/indico-32-regform.png)
+![bg 60%](assets/news/indico-32-regform.png)
 
 ---
 
-![bg 60%](assets/indico-32-series.png)
+![bg 60%](assets/news/indico-32-series.png)
 
 ---
 
-![bg 50%](assets/indico-32-captcha.png)
+![bg 50%](assets/news/indico-32-captcha.png)
 
 ---
 
 <!-- _backgroundColor: #021e2b -->
 
-![bg contain](assets/wake-up-cat.jpg)
+![bg contain](assets/news/wake-up-cat.jpg)
 
 ---
 
@@ -221,15 +221,15 @@ Over **5 years of development** since that day
 
 ---
 
-![bg](assets/indico-map.png)
+![bg](assets/news/indico-map.png)
 
 ---
 
-![bg contain](assets/indico-versions.png)
+![bg contain](assets/news/indico-versions.png)
 
 ---
 
-![bg contain](assets/indico-forum.png)
+![bg contain](assets/news/indico-forum.png)
 
 ---
 
