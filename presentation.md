@@ -39,7 +39,7 @@ h3 {
  - **Event Management** System
  - Core Developed at **CERN**
  - **Collaborative effort** - Open Source
- - \> **70 developers** over the years
+ - ~ **75 developers** over the years
  - ~ **250 servers** world wide
 
 ---
@@ -61,7 +61,7 @@ h3 {
  - **2009** - **Video Conferencing**
  - **2013** - First **Workshop**
  - **2015** - **UNOG** starts using it
- - **2017** - Indico 2.0 (**rewrite**)
+ - **2017** - Indico 2.0 (**rewrite**, **SQL**)
  - **2021** - Indico 3.0 (**Python 3**)
 
 <style scoped>
@@ -95,19 +95,6 @@ section {
 
 ---
 
-![bg](assets/cms_2.jpg)
-![bg](assets/cms_1.jpg)
-
-<!-- _footer: © Copyright CERN --->
-
-<style scoped>
-footer {
-    color: white;
-}
-</style>
-
----
-
 ![bg](assets/next_1.jpg)
 ![bg](assets/cc_2.jpg)
 
@@ -119,10 +106,12 @@ footer {
 
 - **~10.000** people on campus
 - **~230** meeting rooms
-- **~80.000** events/year (pre-COVID)
-  * **800.000** events total
+- **>100.000** events/year
+  - up from 80k pre-COVID
+  - **1.050.000** events total
 - (Distributed) Meetings
 - Conferences, workshops
+- Lecture series
 
 ![bg left](assets/cern_aerial.png)
 
@@ -131,7 +120,7 @@ footer {
 ### Adoption at CERN
 
 
-![height:400px](assets/event_stats_cern.svg)
+![height:400px](assets/event_stats_cern.png)
 
 
 ---
@@ -146,11 +135,11 @@ footer {
 
 ### Philosophy
 
- - "Agnostic" **core**
+ - "Agnostic" **core** ("CERN-free")
  - Extension through **plugins** 🧩
- - **Themes** 🎨 (customization)
+ - **Themes** 🎨
 
-![bg left](assets/cogs.jpg)
+![bg left:48%](assets/cogs.jpg)
 
 ---
 
@@ -186,7 +175,7 @@ footer {
     }
 </style>
 
-![bg width:600px](assets/indico_zoom_creation.png)
+![bg width:600px](assets/indico_zoom_manage.png)
 
 https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
