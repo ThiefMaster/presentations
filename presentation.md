@@ -222,7 +222,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
         justify-content: start;
     }
     h3 {
-        margin-top: 3em;
+        margin-top: 1em;
     }
 </style>
 
@@ -236,7 +236,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
         justify-content: start;
     }
     h3 {
-        margin-top: 3em;
+        margin-top: 1em;
     }
 </style>
 
@@ -250,7 +250,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
         justify-content: start;
     }
     h3 {
-        margin-top: 3em;
+        margin-top: 1em;
     }
 </style>
 
@@ -282,6 +282,20 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
     }
 </style>
 
+### ownCloud integration
+
+![bg height:60% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico-owncloud.png)
+
+---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+    h3 {
+        margin-top: 1em;
+    }
+</style>
+
 ### Hotdesks
 
 ![bg width:60% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/burotel.png)
@@ -290,6 +304,9 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 <style scoped>
     section {
         justify-content: start;
+    }
+    h3 {
+        margin-top: 1em;
     }
 </style>
 
@@ -302,6 +319,9 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
     section {
         justify-content: start;
     }
+    h3 {
+        margin-top: 1em;
+    }
 </style>
 
 ### Themes / Customization
@@ -313,6 +333,9 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
     section {
         justify-content: start;
     }
+    h3 {
+        margin-top: 1em;
+    }
 </style>
 
 ### Themes / Customization
@@ -323,6 +346,9 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 <style scoped>
     section {
         justify-content: start;
+    }
+    h3 {
+        margin-top: 1em;
     }
 </style>
 
