@@ -361,7 +361,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ![bg left 95% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/forum.png)
 
-### Conclusion
+### To summarize
  - Extensible event management system
  - Open Source
  - Mature and actively maintained
@@ -372,11 +372,109 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ---
 
-### [getindico.io](https://getindico.io)
+### Governance Model 🆕
+
+<style scoped>
+    table {
+        font-size: 0.9em;
+    }
+
+    section {
+        padding-right: 30px;
+    }
+</style>
+
+<table>
+    <tr>
+        <th></th>
+        <th>Contribution</th>
+        <th>Influence</th>
+    </tr>
+    <tr style="background-color: #f7f7f7;">
+        <td>Indico Community</td>
+        <td>Voluntary</td>
+        <td>Ideas and suggestions</td>
+    </tr>
+    <tr style="background-color: #e8f0f9;">
+        <td>Participating Organizations</td>
+        <td>Significant (code, translations, outreach, etc.)</td>
+        <td>Attend community meetings, a say in community resource allocation</td>
+    </tr>
+    <tr style="background-color: #e1dbeb">
+        <td>Consultative Board</td>
+        <td>Particularly relevant</td>
+        <td>Approve roadmap and steer general Project development</td>
+    </tr>
+</table>
+
+![bg right:35% 100%](assets/indico-covernance-tiers.png)
+
+---
+
+### Get involved!
+
+- Do you run an Indico instance and want to support the project?
+- Maybe **your** organization would like to become a **Participating Organization**?
+- Reach out to us if you're interested!
+  ✉ indico-team@cern.ch
+- Detailed governance policy:
+  https://github.com/indico/governance
+
+![bg left:40%](assets/wewantyou.jpg)
+
+---
+
+<style scoped>
+  section {
+    padding-right: 20px;
+  }
+</style>
+
+# Glimpse into the future
+
+![bg right:35%](assets/crystal-ball.jpg)
+
+<!-- _footer: '
+  Picture: ["Crystal Ball" by Jeffrey](https://www.flickr.com/photos/jb912/25501052393/) (CC BY-ND)
+' -->
+
+---
+
+## v3.3 - coming very soon
+
+- **Privacy features**
+  - Yep, we still *love* GDPR
+  - User-accessible dump of everything they are linked to
+  - Accept privacy notice during registration / signup
+  - Admin tool to anonymize an account
+- Receipt/certificate generation
+  - Fully customizable templates for PDF generation
+- And many more smaller improvements
+
+![bg right:25% 100%](assets/receipt-example.png)
+
+---
+
+## v3.4 - later this year
+
+- **Rewrite of the conference timetable** & timetable management in React
+  - Rare cases will take the most time... e.g. heavily parallel conferences
+- Remove most (all?) ultra-legacy JS (from before jQuery)
+  - Opens the door for improving our build pipeline
+
+---
+
+### Find us online
 
 ![mastodon width:40px](assets/theme/mastodon.svg) [@getindico@fosstodon.org](https://fosstodon.org/@getindico)
 ![twitter width:40px](assets/theme/twitter.png) [@getindico](https://twitter.com/getindico)
-![matrix width:30px](assets/theme/matrix.svg) [@#indico:matrix.org](https://app.element.io/#/room/#indico:matrix.org) / indico@libera.chat
+![matrix width:30px](assets/theme/matrix.svg) [#indico:matrix.org](https://app.element.io/#/room/#indico:matrix.org)
+#️⃣ #indico on libera.chat IRC
+
+🌐 [getindico.io](https://getindico.io)
+🌐 [github.com/indico/indico](https://github.com/indico/indico)
+🌐 [github.com/indico/governance](https://github.com/indico/governance)
+✉ indico-team@cern.ch
 
 ![bg right:40% width:60%](assets/hexsticker.svg)
 
