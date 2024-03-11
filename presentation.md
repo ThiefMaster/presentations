@@ -16,6 +16,7 @@ footer: CC BY-NC-SA 4.0
 ---
 
 ![width:400px](assets/theme/logo.svg)
+*an event management system*
 *from* **CERN** *to the* 🌍
 
 ### Adrian Mönnich (CERN)
@@ -26,27 +27,45 @@ h3 {
     font-size: 0.8em;
     font-weight: normal;
 }
+
+section {
+    text-align: center;
+}
 </style>
 
 <!-- _footer: CC BY-NC-SA 4.0 • Indico and CERN logos: © Copyright CERN • Based on presentation by Pedro Ferreira -->
 
 ---
 
-![bg left 90%](assets/indico_main_page.png)
+![bg left 90% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_main_page.png)
 
 ### ![width:200px](assets/theme/logo.svg)
 
- - **Event Management** System
- - Core Developed at **CERN**
- - **Collaborative effort** - Open Source
- - ~ **75 developers** over the years
- - ~ **250 servers** world wide
+- **Event Management** System
+- **Collaborative effort** - Open Source (MIT license)
+- Core Developed at **CERN**
+- ~ **75 developers** over the years
+- With contributions from the **United Nations**, **Max-Planck Institute for Physics** and many others!
+
+<style scoped>
+section {
+    text-align: center;
+}
+</style>
 
 ---
 
-### Community
+![bg 100% left](assets/community_map.png)
 
-![width:700px](assets/community_map.png)
+*The most popular event management system you never heard about*
+
+ - **300+ servers**
+ - **> 350K users**
+ - Initial growth in research, but growing beyond it
+   - [indico.un.org](https://indico.un.org)
+   - [events.canonical.org](https://events.canonical.com/)
+   - [indico.gnome.org](https://indico.gnome.org)
+   - [lpc.events](https://lpc.events)
 
 ---
 
@@ -56,13 +75,15 @@ h3 {
 
  - **1999** - **CDS Agenda**
  - **2002** - **EU Project**
- - **2004** - First **Conference**
+ - **2004** - Indico in **Production**
  - **2007** - **Room Booking**
- - **2009** - **Video Conferencing**
+ - **2008** - **Interface overhaul**
  - **2013** - First **Workshop**
- - **2015** - **UNOG** starts using it
- - **2017** - Indico 2.0 (**rewrite**, **SQL**)
- - **2021** - Indico 3.0 (**Python 3**)
+ - **2015** - The **UN** starts using it
+ - **2017** - Indico 2.0 (**rewrite, SQL**)
+ - **2021** - Indico 3.0 (**Python 3** 🐍)
+ - **2023** - **1 Million Events** surpassed at CERN 🎉
+ - **2024** - **20 years!** 🎂
 
 <style scoped>
 section {
@@ -98,22 +119,22 @@ section {
 ![bg](assets/next_1.jpg)
 ![bg](assets/cc_2.jpg)
 
-<!-- _footer: © Copyright 2018-2020 CERN --->
+<!-- _footer: © Copyright CERN --->
 
 ---
 
 ### CERN
 
 - **~10.000** people on campus
-- **~230** meeting rooms
+- **~225** meeting rooms
 - **>100.000** events/year
   - up from 80k pre-COVID
-  - **1.050.000** events total
+  - **1.130.000** events total
 - (Distributed) Meetings
 - Conferences, workshops
 - Lecture series
 
-![bg left](assets/cern_aerial.png)
+![bg left](assets/cern_science_gateway_above.png)
 
 ---
 
@@ -129,7 +150,7 @@ section {
 
 ---
 
-![width:800px](assets/indico_rb.png)
+![bg width:800px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_rb.png)
 
 ---
 
@@ -137,9 +158,24 @@ section {
 
  - "Agnostic" **core** ("CERN-free")
  - Extension through **plugins** 🧩
- - **Themes** 🎨
+ - **Themes** 🎨 (customization)
 
 ![bg left:48%](assets/cogs.jpg)
+
+---
+
+![bg right](assets/hood.jpg)
+
+### Under the Hood
+
+ - Python 3 🐍
+ - PostgreSQL 🐘
+ - Flask
+ - SQLAlchemy
+ - Celery
+ - React
+ - Semantic UI React
+ - *and many more!*
 
 ---
 
@@ -150,6 +186,7 @@ section {
  - Automatic conversion to PDF 🖨
  - Search 🔎
  - Storage 💾
+ - OwnCloud integration 📁 (material upload)
  - URL Shortening 👉
  - Internal Workflows (e.g. recording, visitors)
 
@@ -165,7 +202,7 @@ section {
 
 ### Zoom
 
-![bg width:800px](assets/indico_meeting_header.png)
+![bg width:800px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_meeting_header.png)
 
 ---
 <style scoped>
@@ -175,7 +212,7 @@ section {
     }
 </style>
 
-![bg width:600px](assets/indico_zoom_manage.png)
+![bg width:600px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_zoom_manage.png)
 
 https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
@@ -191,7 +228,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Electronic Payment
 
-![bg width:600px](assets/indico_meeting_payments.png)
+![bg width:600px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_meeting_payments.png)
 
 ---
 <style scoped>
@@ -205,7 +242,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Workflows
 
-![bg width:40%](assets/logistics.png)
+![bg width:40% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/logistics.png)
 
 ---
 <style scoped>
@@ -219,7 +256,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Access Registration
 
-![bg width:500px](assets/indico_vehicle.png)
+![bg width:600px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/visitors.png)
 
 ---
 <style scoped>
@@ -233,7 +270,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Webcast / Recording
 
-![bg width:40%](assets/logistics_2.png)
+![bg height:60% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/webcast.png)
 
 ---
 <style scoped>
@@ -247,7 +284,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Hotdesks
 
-![bg width:60%](assets/burotel.png)
+![bg width:60% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/burotel.png)
 
 ---
 <style scoped>
@@ -258,7 +295,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Themes / Customization
 
-![bg width:60%](assets/ilcagenda.png)
+![bg width:55% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/ilcagenda.png)
 
 ---
 <style scoped>
@@ -269,7 +306,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Themes / Customization
 
-![bg width:50%](assets/meeting.png)
+![bg width:50% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/meeting.png)
 
 ---
 <style scoped>
@@ -280,27 +317,42 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Themes / Customization
 
-![bg width:50%](assets/conference.png)
+![bg width:50% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/conference.png)
+
+---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+</style>
+
+### Check-in App (PWA)
+
+![bg width:65% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/checkin_app.png)
 
 ---
 
 
-![bg left 110%](assets/forum.png)
+![bg left 95% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/forum.png)
 
 ### Conclusion
  - Extensible event management system
  - Open Source
  - Mature and actively maintained
- - Ecosystem of plugins: official + 3rd party
+ - Ecosystem of plugins
+    - official + 3rd party
  - Thriving community
  - **Everyone is welcome**!
 
 ---
 
 ### [getindico.io](https://getindico.io)
-#### ![twitter width:50px](assets/theme/twitter.svg) [@getindico](https://twitter.com/getindico)
 
-![bg right width: 50%](assets/hexsticker.svg)
+![mastodon width:40px](assets/theme/mastodon.svg) [@getindico@fosstodon.org](https://fosstodon.org/@getindico)
+![twitter width:40px](assets/theme/twitter.png) [@getindico](https://twitter.com/getindico)
+![matrix width:30px](assets/theme/matrix.svg) [@#indico:matrix.org](https://app.element.io/#/room/#indico:matrix.org) / indico@libera.chat
+
+![bg right:40% width:60%](assets/hexsticker.svg)
 
 <style scoped>
 img {
