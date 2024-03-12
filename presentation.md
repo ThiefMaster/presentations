@@ -473,7 +473,6 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 🌐 [getindico.io](https://getindico.io)
 🌐 [github.com/indico/indico](https://github.com/indico/indico)
-🌐 [github.com/indico/governance](https://github.com/indico/governance)
 ✉ indico-team@cern.ch
 
 ![bg right:40% width:60%](assets/hexsticker.svg)
