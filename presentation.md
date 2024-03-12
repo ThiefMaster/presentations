@@ -64,7 +64,7 @@ section {
  - Initial growth in research, but growing beyond it
    - [indico.un.org](https://indico.un.org)
    - [events.canonical.org](https://events.canonical.com/)
-   - [indico.gnome.org](https://indico.gnome.org)
+   - [events.gnome.org](https://events.gnome.org)
    - [lpc.events](https://lpc.events)
 
 ---
