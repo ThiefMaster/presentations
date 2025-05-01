@@ -1,5 +1,9 @@
 .PHONY: pdf
-pdf: pdf-cern pdf-global
+pdf: pdf-news pdf-cern pdf-global
+
+.PHONY: pdf-news
+pdf-news:
+	docker run --rm --init -v "${PWD}:/home/marp/app/" -e MARP_USER="$(shell id -u):$(shell id -g)" marpteam/marp-cli presentation-news.md --pdf
 
 .PHONY: pdf-cern
 pdf-cern:
@@ -11,7 +15,11 @@ pdf-global:
 
 
 .PHONY: html
-html: html-cern html-global
+html: html-news html-cern html-global
+
+.PHONY: html-news
+html-news:
+	docker run --rm --init -v "${PWD}:/home/marp/app/" -e MARP_USER="$(shell id -u):$(shell id -g)" marpteam/marp-cli presentation-news.md -o presentation-news.html
 
 .PHONY: html-cern
 html-cern:
@@ -28,7 +36,11 @@ server:
 
 
 .PHONY: clean
-clean: clean-cern clean-global
+clean: clean-news clean-cern clean-global
+
+.PHONY: clean-news
+clean-news:
+	rm -f presentation-news.pdf presentation-news.html
 
 .PHONY: clean-cern
 clean-cern:
