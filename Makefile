@@ -1,5 +1,5 @@
 .PHONY: pdf
-pdf: pdf-news pdf-cern pdf-global
+pdf: pdf-news pdf-cern pdf-global pdf-conversion
 
 .PHONY: pdf-news
 pdf-news:
@@ -13,9 +13,13 @@ pdf-cern:
 pdf-global:
 	docker run --rm --init -v "${PWD}:/home/marp/app/" -e MARP_USER="$(shell id -u):$(shell id -g)" marpteam/marp-cli presentation-global.md --pdf
 
+.PHONY: pdf-conversion
+pdf-conversion:
+	docker run --rm --init -v "${PWD}:/home/marp/app/" -e MARP_USER="$(shell id -u):$(shell id -g)" marpteam/marp-cli presentation-conversion.md --pdf
+
 
 .PHONY: html
-html: html-news html-cern html-global
+html: html-newsfuture html-cern html-global html-conversion
 
 .PHONY: html-news
 html-news:
@@ -29,6 +33,10 @@ html-cern:
 html-global:
 	docker run --rm --init -v "${PWD}:/home/marp/app/" -e MARP_USER="$(shell id -u):$(shell id -g)" marpteam/marp-cli presentation-global.md -o presentation-cern.html
 
+.PHONY: html-conversion
+html-conversion:
+	docker run --rm --init -v "${PWD}:/home/marp/app/" -e MARP_USER="$(shell id -u):$(shell id -g)" marpteam/marp-cli presentation-conversion.md -o presentation-cern.html
+
 
 .PHONY: server
 server:
@@ -36,7 +44,7 @@ server:
 
 
 .PHONY: clean
-clean: clean-news clean-cern clean-global
+clean: clean-news clean-cern clean-global clean-conversion
 
 .PHONY: clean-news
 clean-news:
@@ -49,3 +57,7 @@ clean-cern:
 .PHONY: clean-global
 clean-global:
 	rm -f presentation-global.pdf presentation-global.html
+
+.PHONY: clean-conversion
+clean-conversion:
+	rm -f presentation-conversion.pdf presentation-conversion.html
