@@ -44,3 +44,7 @@ section.spotlight h2 {
 section.centered {
     text-align: center;
 }
+
+h1, h2 {
+    color: #00a4e4;
+}
